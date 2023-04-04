@@ -10,6 +10,7 @@ repository = "https://github.com/91nunocosta/sweb/"
 sweb = "sweb.cli:app"
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
+parsel = "^1.7.0"
 sqlmodel = "^0.0.8"
 plotly = "^5.14.0"
 [tool.poetry.group.lint]

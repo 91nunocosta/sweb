@@ -24,7 +24,7 @@ jobs:
           cache: 'poetry'
 
       - name: install package
-        run: poetry install --with lint
+        run: poetry install --with lint --with test
 
       - name: cache pre-commit environment
         uses: actions/cache@v3
