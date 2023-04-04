@@ -40,6 +40,19 @@ def html_file(source_html_dir: Path) -> Path:  # pylint: disable=redefined-outer
 
 
 @fixture()
+def csv_file(data_dir: Path) -> Path:  # pylint: disable=redefined-outer-name
+    """Returns the csv file for testing.
+
+    Args:
+        data_dir: Path to testing data directory.
+
+    Returns:
+        Path to the csv file for testing.
+    """
+    return data_dir / "webvisits.csv"
+
+
+@fixture()
 def similarweb_site() -> SimilarwebSite:
     """Returns the Similarweb Site page for testing.
 
