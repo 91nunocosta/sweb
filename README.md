@@ -4,7 +4,11 @@
 
 ![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
 
-[![GitHub branch checks state](https://img.shields.io/github/checks-status/91nunocosta/sweb/master)](https://github.com/91nunocosta/sweb)
+[![Lint codebase](https://github.com/91nunocosta/sweb/actions/workflows/lint.yml/badge.svg)](https://github.com/91nunocosta/sweb/actions/workflows/lint.yml)
+
+[![Run tests](https://github.com/91nunocosta/sweb/actions/workflows/test.yml/badge.svg)](https://github.com/91nunocosta/sweb/actions/workflows/test.yml)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ec8aff689ad4485b96945ac1edb44288)](https://app.codacy.com/gh/91nunocosta/sweb/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Proof of Concept (PoC) for a data pipeline with the following steps:
 
